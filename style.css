@@ -1,3 +1,16 @@
+
+ 
+
+ 
+#navbar a.desktop { display: inline; color: white; text-decoration: none; }
+#navbar a.mobile { display: none; font-size: 24px; }
+ 
+@media (max-width: 768px) {
+ .zmiz {
+    display: none;
+ }
+}
+
 body {
     background-color: rgb(13, 0, 255);
 }
